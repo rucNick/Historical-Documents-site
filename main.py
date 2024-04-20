@@ -70,7 +70,7 @@ async def main():
                     last_size = 0  # Reset last size for each book
 
                     start_page = 1
-                    end_page = 700  # Assumed max 700 pages per book
+                    end_page = 700
 
                     for page_num in range(start_page, end_page + 1):
                         formatted_page_num = str(page_num).zfill(4)
